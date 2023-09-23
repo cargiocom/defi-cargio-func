@@ -26,7 +26,6 @@ contract CRGToken is Context, IBEP20, Ownable {
     uint256 private constant maxRate = 5000;
     uint256 private constant rateDecimal = 10000;
     uint256 public burnRate;
-    uint256 public daoRate;
     address public daoAddress;
     mapping(address => bool) public recipientlist;
 

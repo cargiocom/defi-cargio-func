@@ -58,10 +58,6 @@ contract CRGToken is Context, IBEP20, Ownable {
         return _name;
     }
 
-    function totalSupply() external view returns (uint256) {
-        return _totalSupply;
-    }
-
     function balanceOf(address account) external view returns (uint256) {
         return _balances[account];
     }

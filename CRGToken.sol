@@ -5,7 +5,7 @@ import "./Ownable.sol";
 import "./IBEP20.sol";
 
 contract CRGToken is Context, IBEP20, Ownable {
-    using CargioSafeMath for uint256;
+
 
     event NewDaoAddress(address oldDaoAddress, address newDaoAddress);
     event NewBurnRate(uint256 oldBurnRate, uint256 newBurnRate);

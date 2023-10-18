@@ -6,6 +6,7 @@ import "./IBEP20.sol";
 
 contract CRGToken is Context, IBEP20, Ownable {
 
+
     event NewDaoAddress(address oldDaoAddress, address newDaoAddress);
     event NewBurnRate(uint256 oldBurnRate, uint256 newBurnRate);
     event NewDaoRate(uint256 oldDaoRate, uint256 newDaoRate);

@@ -1,4 +1,4 @@
-5555pragma solidity ^0.5.16;
+55555pragma solidity ^0.5.16;
 
 interface IBEP20 {
     function totalSupply() external view returns (uint256);
